@@ -1,0 +1,56 @@
+.carimg{
+height: 90vh;
+
+}
+.nav{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.about{
+    /* border: 1px solid red; */
+    margin-top: 5rem;
+    height: 100%;
+    width: 100vw;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card img{
+    /* border: 2px solid green; */
+    height: 15rem;
+}
+
+.card{
+    transition: all ease 0.5s;
+}
+.card:hover{
+    margin-top: -1rem;
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+}
+#about img{
+    margin-top: 1.5rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+#about{
+    height: 80vh;
+    background-color:cadetblue;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#about h1{
+    font-size: 4rem;
+}
+#about p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
